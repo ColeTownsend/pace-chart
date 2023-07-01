@@ -1,0 +1,16 @@
+.distanceInput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.distanceInput:focus {
+  border-color: #0070f3;
+}
+
+.distanceInput::placeholder {
+  color: #aaa;
+}

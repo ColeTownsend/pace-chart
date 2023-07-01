@@ -1,0 +1,19 @@
+.mainColumn {
+  flex: 2;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .mainColumn {
+    width: 100%;
+  }
+}
+
+.inputField {
+  margin-bottom: 1rem;
+  width: 100%;
+}

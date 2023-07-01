@@ -1,0 +1,18 @@
+.durationInput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.durationInput:focus {
+  border-color: #a3a3a3;
+  outline: none;
+}
+
+@media (max-width: 640px) {
+  .durationInput {
+    width: 100%;
+  }
+}
