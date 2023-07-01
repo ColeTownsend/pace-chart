@@ -1,0 +1,17 @@
+.paceInput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.paceInput:focus {
+  border-color: #a3a3a3;
+}
+
+@media (max-width: 640px) {
+  .paceInput {
+    width: 100%;
+  }
+}
